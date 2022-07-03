@@ -60,7 +60,7 @@ const createslide = () =>{
     sliders.push(slide);
 
     if(slide.length){
-        sliders[0].style.marginLeft = calc(-${100*(sliders.length-2)}%-${30*(sliders.length-2)}px);
+        // sliders[0].style.marginLeft = calc(-${100*(sliders.length-2)}%-${30*(sliders.length-2)}px);
     }
 }
 
@@ -68,9 +68,9 @@ for(let i=0;i<3;i++){
     createslide();
 }
 
-setInterval=>{
-    createslide();
-},3000);
+// setInterval=>{
+//     createslide();
+// },3000);
 
 const videocards = [...document.querySelectorAll('.video-card')];
 
